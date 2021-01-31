@@ -1,0 +1,90 @@
+ 
+
+#carouselExampleCaptions{
+    width: 50%;
+}
+#carouselExampleCaptions img{
+    height: 1000px;
+}
+
+.c23 img{
+    width: 220px;
+    height: 240px;
+}
+.c23 figure{
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid #dbf3fa !important;
+    background-color: #dbf3fa;
+}
+.c23 figcaption{
+    font-size: 18pt;
+}
+.navbar-brand{
+    font-size: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#navbarCustom1 a{
+    color:white;
+}
+#navbarCustom1 a:hover{   
+    background-color: #111111;
+}
+#navbarCustom1{
+    background-color: #333333;
+}
+
+#navbarCustom2 a:hover{   
+    background-color: #eeeeee;
+}
+
+#extraNav a:hover{
+    background-color: #eeeeee;
+}
+
+#footerNav a:hover{
+    background-color: #111111;
+}
+.accordion-body a:hover{
+    background-color: #eeeeee;
+}
+
+
+
+
+
+  /* Mobile portrait */
+  @media screen and (min-width:320px) and (max-width: 479px) {
+    #carouselExampleCaptions{
+        width: 90%;
+    }
+    #carouselExampleCaptions img{
+        height: 600px;
+    }
+  }
+  
+  /* Mobile landscape */
+  @media screen and (min-width:480px) and (max-width: 767px) {
+    #carouselExampleCaptions{
+        width: 85%;
+    }
+    #carouselExampleCaptions img{
+        height: 800px;
+    }
+  }
+  
+  /* ipad or tablet portrait */
+  @media screen and (min-width:768px) and (max-width: 959px) {
+    #carouselExampleCaptions{
+        width: 75%;
+    }
+    #carouselExampleCaptions img{
+        height: 900px;
+    }
+  }
+  
